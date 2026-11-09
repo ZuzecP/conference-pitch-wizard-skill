@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "conference-pitch-wizard-skill",
+  "description": "A guided path from a raw talk idea to a conference or meetup abstract, packaged as a Claude plugin",
+  "owner": {
+    "name": "Zuzana Pešková"
+  },
+  "plugins": [
+    {
+      "name": "conference-pitch-wizard",
+      "description": "Guides you from a raw talk idea to a conference or meetup abstract you want to submit: candidate topics, a candid stress test, a sharpened pitch, and a match to a specific call for papers.",
+      "author": {
+        "name": "Zuzana Pešková"
+      },
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://github.com/ZuzecP/conference-pitch-wizard-skill",
+      "license": "CC-BY-NC-4.0"
+    }
+  ]
+}
